@@ -42,3 +42,20 @@ iframe#tela{
     width:270px;
    
 }
+section#redes-sociais{
+    text-align: right;
+}
+section#redes-sociais img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+    
+}
+section#redes-sociais img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.699);
+    box-sizing: border-box;/*a borda não faz parte do objeto, usando o box sizing, ele vai juntar a borda hover com o img*/
+    transform: translate(-3px -3px);
+    transition: transform 2s, border 1s;/*um brilho leve a borda*/
+    box-shadow: 5px 5px 10px black;
+}
